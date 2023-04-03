@@ -14,6 +14,9 @@ import { SegundoComponenteComponent } from './segundo-componente/segundo-compone
 import { MultiplicaPorPipe } from './multiplica-por.pipe';
 import { PipeCustomizadoComponent } from './pipe-customizado/pipe-customizado.component';
 import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
+import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
+import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component';
+import { CicloDeVidaPaiComponent } from './ciclo-de-vida-pai/ciclo-de-vida-pai.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-
     SegundoComponenteComponent,
     MultiplicaPorPipe,
     PipeCustomizadoComponent,
-    TwoWayDataBindingComponent
+    TwoWayDataBindingComponent,
+    RenderizandoListasComponent,
+    CicloDeVidaComponent,
+    CicloDeVidaPaiComponent
   ],
   imports: [
     BrowserModule,
